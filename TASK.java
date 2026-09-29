@@ -2,9 +2,9 @@ class Time {
     int hr, min, seconds;
 
     Time() {
-        hr = 0;
-        min = 0;
-        seconds = 0;
+        hr = 6;
+        min = 35;
+        seconds = 40;
     }
 
     Time(int h, int m, int s) {
