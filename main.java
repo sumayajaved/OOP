@@ -1,0 +1,27 @@
+class Marks {
+    int mark1, mark2, mark3;
+
+    Marks() {
+        mark1 = 0;
+        mark2 = 0;
+        mark3 = 0;
+    }
+
+    Marks(int m1, int m2, int m3) {
+        mark1 = m1;
+        mark2 = m2;
+        mark3 = m3;
+    }
+
+    int sum() {
+        return mark1 + mark2 + mark3;
+    }
+}
+
+public class main {
+    public static void main(String[] args) {
+        Marks m = new Marks(70, 80, 90);
+
+        System.out.println("Sum = " + m.sum());
+    }
+}
