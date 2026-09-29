@@ -1,8 +1,8 @@
 class Distance {
     int feet, inches;
     Distance() {
-        feet = 0;
-        inches = 0;
+        feet = 3;
+        inches = 6;
     }
 
     Distance(int f, int i) {
